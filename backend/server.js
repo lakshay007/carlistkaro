@@ -10,23 +10,7 @@ const specs = require('./swagger');
 
 const app = express();
 
-app.use(cors({
-  origin: process.env.FRONTEND_URL,
-  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
-  allowedHeaders: [
-    'Origin',
-    'X-Requested-With',
-    'Content-Type',
-    'Accept',
-    'Authorization',
-    'Access-Control-Allow-Headers',
-    'Access-Control-Request-Method',
-    'Access-Control-Request-Headers'
-  ],
-  credentials: true,
-  preflightContinue: false,
-  optionsSuccessStatus: 204
-}));
+app.use(cors());
 
 app.options('*', cors());
 
