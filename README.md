@@ -68,9 +68,9 @@ CarListKaro is a full-stack web application that allows users to manage and show
 
 
 The application will be available at:
-- Frontend: http://localhost:5173
-- Backend: http://localhost:9000
-- API Documentation: http://localhost:9000/api/docs
+- Frontend: https://carlistkaro.vercel.app
+- Backend: https://carlistkaro.onrender.com
+- API Documentation: https://carlistkaro.onrender.com/api/docs
 
 ## API Documentation
 
