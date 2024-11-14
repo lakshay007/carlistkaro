@@ -93,4 +93,3 @@ The API documentation is available at `/api/docs` when the server is running. It
 - PUT `/api/cars/:id` - Update car
 - DELETE `/api/cars/:id` - Delete car
 
-## Project Structure
